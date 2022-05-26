@@ -42,7 +42,7 @@ function baseIntersection (arrays) {
 }
 ```
 
-接下来，我们确定一下交集 `result` 的最大长度，`result` 的长度肯定不超过传入的最短数组的长度，因此只需要找出期中最短数组的长度，即可确定交集的最大长度。
+接下来，我们确定一下交集 `result` 的最大长度，`result` 的长度肯定不超过传入的最短数组的长度，因此只需要找出其中最短数组的长度，即可确定交集的最大长度。
 
 ```javascript
 function baseIntersection (arrays) {
